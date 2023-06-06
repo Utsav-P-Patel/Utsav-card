@@ -14,6 +14,8 @@
 		8C7FF9F52A2F6C23009E8834 /* Utsav_cardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7FF9F42A2F6C23009E8834 /* Utsav_cardTests.swift */; };
 		8C7FF9FF2A2F6C23009E8834 /* Utsav_cardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7FF9FE2A2F6C23009E8834 /* Utsav_cardUITests.swift */; };
 		8C7FFA012A2F6C23009E8834 /* Utsav_cardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7FFA002A2F6C23009E8834 /* Utsav_cardUITestsLaunchTests.swift */; };
+		8C7FFA102A2F6ECD009E8834 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C7FFA0F2A2F6ECD009E8834 /* Pacifico-Regular.ttf */; };
+		8C7FFA132A2F7F25009E8834 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7FFA122A2F7F25009E8834 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		8C7FF9FA2A2F6C23009E8834 /* Utsav cardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Utsav cardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7FF9FE2A2F6C23009E8834 /* Utsav_cardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utsav_cardUITests.swift; sourceTree = "<group>"; };
 		8C7FFA002A2F6C23009E8834 /* Utsav_cardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utsav_cardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C7FFA0F2A2F6ECD009E8834 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		8C7FFA112A2F7027009E8834 /* Utsav-card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Utsav-card-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8C7FFA122A2F7F25009E8834 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +99,13 @@
 		8C7FF9E22A2F6C20009E8834 /* Utsav card */ = {
 			isa = PBXGroup;
 			children = (
+				8C7FFA112A2F7027009E8834 /* Utsav-card-Info.plist */,
+				8C7FFA0E2A2F6EA1009E8834 /* fonts */,
 				8C7FF9E32A2F6C20009E8834 /* Utsav_cardApp.swift */,
 				8C7FF9E52A2F6C20009E8834 /* ContentView.swift */,
 				8C7FF9E72A2F6C23009E8834 /* Assets.xcassets */,
 				8C7FF9E92A2F6C23009E8834 /* Preview Content */,
+				8C7FFA122A2F7F25009E8834 /* InfoView.swift */,
 			);
 			path = "Utsav card";
 			sourceTree = "<group>";
@@ -125,6 +133,14 @@
 				8C7FFA002A2F6C23009E8834 /* Utsav_cardUITestsLaunchTests.swift */,
 			);
 			path = "Utsav cardUITests";
+			sourceTree = "<group>";
+		};
+		8C7FFA0E2A2F6EA1009E8834 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8C7FFA0F2A2F6ECD009E8834 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C7FFA102A2F6ECD009E8834 /* Pacifico-Regular.ttf in Resources */,
 				8C7FF9EB2A2F6C23009E8834 /* Preview Assets.xcassets in Resources */,
 				8C7FF9E82A2F6C23009E8834 /* Assets.xcassets in Resources */,
 			);
@@ -259,6 +276,7 @@
 			files = (
 				8C7FF9E62A2F6C20009E8834 /* ContentView.swift in Sources */,
 				8C7FF9E42A2F6C20009E8834 /* Utsav_cardApp.swift in Sources */,
+				8C7FFA132A2F7F25009E8834 /* InfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +437,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Utsav card/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Utsav-card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +466,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Utsav card/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Utsav-card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
